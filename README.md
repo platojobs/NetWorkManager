@@ -23,7 +23,7 @@ YTKNetworkConfig 类有两个作用：
  
 具体的用法是，在程序刚启动的回调中，设置好 YTKNetworkConfig 的信息，如下所示：
 
-```objectivec
+```objc
 - (BOOL)application:(UIApplication *)application 
    didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

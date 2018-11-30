@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A07F8C84F1AEA14A420A7735 /* libPods-PayMent_IOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 238AB9FCE283539E5C6448F0 /* libPods-PayMent_IOS.a */; };
+		ABFBC5DC21B0CABD000D3B3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFBC5DB21B0CABD000D3B3D /* AppDelegate.m */; };
+		ABFBC5DF21B0CABD000D3B3D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFBC5DE21B0CABD000D3B3D /* ViewController.m */; };
+		ABFBC5E221B0CABD000D3B3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABFBC5E021B0CABD000D3B3D /* Main.storyboard */; };
+		ABFBC5E421B0CACB000D3B3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABFBC5E321B0CACB000D3B3D /* Assets.xcassets */; };
+		ABFBC5E721B0CACB000D3B3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABFBC5E521B0CACB000D3B3D /* LaunchScreen.storyboard */; };
+		ABFBC5EA21B0CACB000D3B3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFBC5E921B0CACB000D3B3D /* main.m */; };
+		ABFBC5F421B0CACB000D3B3D /* PayMent_IOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFBC5F321B0CACB000D3B3D /* PayMent_IOSTests.m */; };
+		ABFBC5FF21B0CACB000D3B3D /* PayMent_IOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFBC5FE21B0CACB000D3B3D /* PayMent_IOSUITests.m */; };
+		ABFBC60E21B0D113000D3B3D /* DavRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFBC60D21B0D113000D3B3D /* DavRequest.m */; };
+		ABFBC61221B0DC8B000D3B3D /* DavRusultVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFBC61021B0DC8B000D3B3D /* DavRusultVC.m */; };
+		ABFBC61321B0DC8B000D3B3D /* DavRusultVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABFBC61121B0DC8B000D3B3D /* DavRusultVC.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABFBC5F021B0CACB000D3B3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABFBC5CF21B0CABD000D3B3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABFBC5D621B0CABD000D3B3D;
+			remoteInfo = PayMent_IOS;
+		};
+		ABFBC5FB21B0CACB000D3B3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABFBC5CF21B0CABD000D3B3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABFBC5D621B0CABD000D3B3D;
+			remoteInfo = PayMent_IOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		238AB9FCE283539E5C6448F0 /* libPods-PayMent_IOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PayMent_IOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		743190B975C2EA4C0BA5FFDA /* Pods-PayMent_IOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayMent_IOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayMent_IOS/Pods-PayMent_IOS.debug.xcconfig"; sourceTree = "<group>"; };
+		7ECBF7991FAEFF8B004CC233 /* Pods-PayMent_IOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayMent_IOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-PayMent_IOS/Pods-PayMent_IOS.release.xcconfig"; sourceTree = "<group>"; };
+		ABFBC5D721B0CABD000D3B3D /* PayMent_IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayMent_IOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABFBC5DA21B0CABD000D3B3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABFBC5DB21B0CABD000D3B3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABFBC5DD21B0CABD000D3B3D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ABFBC5DE21B0CABD000D3B3D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ABFBC5E121B0CABD000D3B3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABFBC5E321B0CACB000D3B3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABFBC5E621B0CACB000D3B3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABFBC5E821B0CACB000D3B3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABFBC5E921B0CACB000D3B3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABFBC5EF21B0CACB000D3B3D /* PayMent_IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayMent_IOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABFBC5F321B0CACB000D3B3D /* PayMent_IOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayMent_IOSTests.m; sourceTree = "<group>"; };
+		ABFBC5F521B0CACB000D3B3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABFBC5FA21B0CACB000D3B3D /* PayMent_IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayMent_IOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABFBC5FE21B0CACB000D3B3D /* PayMent_IOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayMent_IOSUITests.m; sourceTree = "<group>"; };
+		ABFBC60021B0CACB000D3B3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABFBC60C21B0D113000D3B3D /* DavRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DavRequest.h; sourceTree = "<group>"; };
+		ABFBC60D21B0D113000D3B3D /* DavRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DavRequest.m; sourceTree = "<group>"; };
+		ABFBC60F21B0DC8B000D3B3D /* DavRusultVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DavRusultVC.h; sourceTree = "<group>"; };
+		ABFBC61021B0DC8B000D3B3D /* DavRusultVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DavRusultVC.m; sourceTree = "<group>"; };
+		ABFBC61121B0DC8B000D3B3D /* DavRusultVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DavRusultVC.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABFBC5D421B0CABD000D3B3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A07F8C84F1AEA14A420A7735 /* libPods-PayMent_IOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFBC5EC21B0CACB000D3B3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFBC5F721B0CACB000D3B3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C7E9AAFAC3950BEC5E531C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				743190B975C2EA4C0BA5FFDA /* Pods-PayMent_IOS.debug.xcconfig */,
+				7ECBF7991FAEFF8B004CC233 /* Pods-PayMent_IOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A091247DD5F07EA6190A4DDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				238AB9FCE283539E5C6448F0 /* libPods-PayMent_IOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABFBC5CE21B0CABD000D3B3D = {
+			isa = PBXGroup;
+			children = (
+				ABFBC5D921B0CABD000D3B3D /* PayMent_IOS */,
+				ABFBC5F221B0CACB000D3B3D /* PayMent_IOSTests */,
+				ABFBC5FD21B0CACB000D3B3D /* PayMent_IOSUITests */,
+				ABFBC5D821B0CABD000D3B3D /* Products */,
+				8C7E9AAFAC3950BEC5E531C4 /* Pods */,
+				A091247DD5F07EA6190A4DDC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ABFBC5D821B0CABD000D3B3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABFBC5D721B0CABD000D3B3D /* PayMent_IOS.app */,
+				ABFBC5EF21B0CACB000D3B3D /* PayMent_IOSTests.xctest */,
+				ABFBC5FA21B0CACB000D3B3D /* PayMent_IOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABFBC5D921B0CABD000D3B3D /* PayMent_IOS */ = {
+			isa = PBXGroup;
+			children = (
+				ABFBC5DA21B0CABD000D3B3D /* AppDelegate.h */,
+				ABFBC5DB21B0CABD000D3B3D /* AppDelegate.m */,
+				ABFBC5DD21B0CABD000D3B3D /* ViewController.h */,
+				ABFBC5DE21B0CABD000D3B3D /* ViewController.m */,
+				ABFBC60F21B0DC8B000D3B3D /* DavRusultVC.h */,
+				ABFBC61021B0DC8B000D3B3D /* DavRusultVC.m */,
+				ABFBC61121B0DC8B000D3B3D /* DavRusultVC.xib */,
+				ABFBC60C21B0D113000D3B3D /* DavRequest.h */,
+				ABFBC60D21B0D113000D3B3D /* DavRequest.m */,
+				ABFBC5E021B0CABD000D3B3D /* Main.storyboard */,
+				ABFBC5E321B0CACB000D3B3D /* Assets.xcassets */,
+				ABFBC5E521B0CACB000D3B3D /* LaunchScreen.storyboard */,
+				ABFBC5E821B0CACB000D3B3D /* Info.plist */,
+				ABFBC5E921B0CACB000D3B3D /* main.m */,
+			);
+			path = PayMent_IOS;
+			sourceTree = "<group>";
+		};
+		ABFBC5F221B0CACB000D3B3D /* PayMent_IOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABFBC5F321B0CACB000D3B3D /* PayMent_IOSTests.m */,
+				ABFBC5F521B0CACB000D3B3D /* Info.plist */,
+			);
+			path = PayMent_IOSTests;
+			sourceTree = "<group>";
+		};
+		ABFBC5FD21B0CACB000D3B3D /* PayMent_IOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABFBC5FE21B0CACB000D3B3D /* PayMent_IOSUITests.m */,
+				ABFBC60021B0CACB000D3B3D /* Info.plist */,
+			);
+			path = PayMent_IOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABFBC5D621B0CABD000D3B3D /* PayMent_IOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABFBC60321B0CACB000D3B3D /* Build configuration list for PBXNativeTarget "PayMent_IOS" */;
+			buildPhases = (
+				2D7A3357E2EB7AE62D341399 /* [CP] Check Pods Manifest.lock */,
+				ABFBC5D321B0CABD000D3B3D /* Sources */,
+				ABFBC5D421B0CABD000D3B3D /* Frameworks */,
+				ABFBC5D521B0CABD000D3B3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayMent_IOS;
+			productName = PayMent_IOS;
+			productReference = ABFBC5D721B0CABD000D3B3D /* PayMent_IOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABFBC5EE21B0CACB000D3B3D /* PayMent_IOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABFBC60621B0CACB000D3B3D /* Build configuration list for PBXNativeTarget "PayMent_IOSTests" */;
+			buildPhases = (
+				ABFBC5EB21B0CACB000D3B3D /* Sources */,
+				ABFBC5EC21B0CACB000D3B3D /* Frameworks */,
+				ABFBC5ED21B0CACB000D3B3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABFBC5F121B0CACB000D3B3D /* PBXTargetDependency */,
+			);
+			name = PayMent_IOSTests;
+			productName = PayMent_IOSTests;
+			productReference = ABFBC5EF21B0CACB000D3B3D /* PayMent_IOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABFBC5F921B0CACB000D3B3D /* PayMent_IOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABFBC60921B0CACB000D3B3D /* Build configuration list for PBXNativeTarget "PayMent_IOSUITests" */;
+			buildPhases = (
+				ABFBC5F621B0CACB000D3B3D /* Sources */,
+				ABFBC5F721B0CACB000D3B3D /* Frameworks */,
+				ABFBC5F821B0CACB000D3B3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABFBC5FC21B0CACB000D3B3D /* PBXTargetDependency */,
+			);
+			name = PayMent_IOSUITests;
+			productName = PayMent_IOSUITests;
+			productReference = ABFBC5FA21B0CACB000D3B3D /* PayMent_IOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABFBC5CF21B0CABD000D3B3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "崔曦";
+				TargetAttributes = {
+					ABFBC5D621B0CABD000D3B3D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					ABFBC5EE21B0CACB000D3B3D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = ABFBC5D621B0CABD000D3B3D;
+					};
+					ABFBC5F921B0CACB000D3B3D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = ABFBC5D621B0CABD000D3B3D;
+					};
+				};
+			};
+			buildConfigurationList = ABFBC5D221B0CABD000D3B3D /* Build configuration list for PBXProject "PayMent_IOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABFBC5CE21B0CABD000D3B3D;
+			productRefGroup = ABFBC5D821B0CABD000D3B3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABFBC5D621B0CABD000D3B3D /* PayMent_IOS */,
+				ABFBC5EE21B0CACB000D3B3D /* PayMent_IOSTests */,
+				ABFBC5F921B0CACB000D3B3D /* PayMent_IOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABFBC5D521B0CABD000D3B3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFBC5E721B0CACB000D3B3D /* LaunchScreen.storyboard in Resources */,
+				ABFBC5E421B0CACB000D3B3D /* Assets.xcassets in Resources */,
+				ABFBC5E221B0CABD000D3B3D /* Main.storyboard in Resources */,
+				ABFBC61321B0DC8B000D3B3D /* DavRusultVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFBC5ED21B0CACB000D3B3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFBC5F821B0CACB000D3B3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D7A3357E2EB7AE62D341399 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PayMent_IOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABFBC5D321B0CABD000D3B3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFBC61221B0DC8B000D3B3D /* DavRusultVC.m in Sources */,
+				ABFBC5DF21B0CABD000D3B3D /* ViewController.m in Sources */,
+				ABFBC5EA21B0CACB000D3B3D /* main.m in Sources */,
+				ABFBC5DC21B0CABD000D3B3D /* AppDelegate.m in Sources */,
+				ABFBC60E21B0D113000D3B3D /* DavRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFBC5EB21B0CACB000D3B3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFBC5F421B0CACB000D3B3D /* PayMent_IOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFBC5F621B0CACB000D3B3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFBC5FF21B0CACB000D3B3D /* PayMent_IOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABFBC5F121B0CACB000D3B3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABFBC5D621B0CABD000D3B3D /* PayMent_IOS */;
+			targetProxy = ABFBC5F021B0CACB000D3B3D /* PBXContainerItemProxy */;
+		};
+		ABFBC5FC21B0CACB000D3B3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABFBC5D621B0CABD000D3B3D /* PayMent_IOS */;
+			targetProxy = ABFBC5FB21B0CACB000D3B3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABFBC5E021B0CABD000D3B3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABFBC5E121B0CABD000D3B3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABFBC5E521B0CACB000D3B3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABFBC5E621B0CACB000D3B3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABFBC60121B0CACB000D3B3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ABFBC60221B0CACB000D3B3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABFBC60421B0CACB000D3B3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 743190B975C2EA4C0BA5FFDA /* Pods-PayMent_IOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PayMent_IOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "David.PayMent-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABFBC60521B0CACB000D3B3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ECBF7991FAEFF8B004CC233 /* Pods-PayMent_IOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PayMent_IOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "David.PayMent-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ABFBC60721B0CACB000D3B3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PayMent_IOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "David.PayMent-IOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayMent_IOS.app/PayMent_IOS";
+			};
+			name = Debug;
+		};
+		ABFBC60821B0CACB000D3B3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PayMent_IOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "David.PayMent-IOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayMent_IOS.app/PayMent_IOS";
+			};
+			name = Release;
+		};
+		ABFBC60A21B0CACB000D3B3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PayMent_IOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "David.PayMent-IOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PayMent_IOS;
+			};
+			name = Debug;
+		};
+		ABFBC60B21B0CACB000D3B3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PayMent_IOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "David.PayMent-IOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PayMent_IOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABFBC5D221B0CABD000D3B3D /* Build configuration list for PBXProject "PayMent_IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABFBC60121B0CACB000D3B3D /* Debug */,
+				ABFBC60221B0CACB000D3B3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABFBC60321B0CACB000D3B3D /* Build configuration list for PBXNativeTarget "PayMent_IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABFBC60421B0CACB000D3B3D /* Debug */,
+				ABFBC60521B0CACB000D3B3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABFBC60621B0CACB000D3B3D /* Build configuration list for PBXNativeTarget "PayMent_IOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABFBC60721B0CACB000D3B3D /* Debug */,
+				ABFBC60821B0CACB000D3B3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABFBC60921B0CACB000D3B3D /* Build configuration list for PBXNativeTarget "PayMent_IOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABFBC60A21B0CACB000D3B3D /* Debug */,
+				ABFBC60B21B0CACB000D3B3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABFBC5CF21B0CABD000D3B3D /* Project object */;
+}
